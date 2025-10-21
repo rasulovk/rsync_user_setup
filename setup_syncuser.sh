@@ -65,7 +65,7 @@ cat > "$WRAPPER_PATH" <<EOF
 case "\$@" in
     *"/home/synced_folder"* )
         # Use the system rsync binary resolved at script runtime
-        "\$RSYNC_BIN" "\$@"
+        /usr/bin/rsync "\$@"
         ;;
     *)
         echo "Access denied. You can only rsync /home/synced_folder"
