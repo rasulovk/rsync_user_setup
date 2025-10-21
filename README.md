@@ -2,6 +2,7 @@ Overview
 setup_syncuser.sh is a Bash script designed to create a restricted user account (syncuser) on a Linux system. This user is granted limited access to a specified source folder via a restricted rsync wrapper, allowing secure file synchronization.
 
 Features
+
 Prompts for the source folder path to restrict rsync access.
 Creates a new user with a specified password if it does not already exist.
 Installs a public SSH key for secure access.
